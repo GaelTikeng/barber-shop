@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 #banner {
     background: linear-gradient(rgba(0,0,0,0.5),#009688), url(banner.jpg);
@@ -15,7 +14,6 @@
     position: absolute;
     top: 4%;
     left: 10%;
-
 }
 .banner-text {
     text-align: center;
@@ -32,7 +30,6 @@
 }
 .banner-btn {
     margin: 70px auto 0;
-
 }
 .banner-btn a {
     width: 150px;
@@ -55,7 +52,6 @@
     background: #fff;
     z-index: -1;
     transition: color 0.5s;
-
 }
 .banner-btn a:hover span {
     width: 100%;
@@ -123,7 +119,6 @@ nav ul li a {
     position: relative;
     z-index: 1;
     display: inline-block;
-
 }
 .tittle-text p::after {
     content:'';
@@ -137,7 +132,6 @@ nav ul li a {
     transform: rotate(10deg);
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
-
 }
 .tittle-text h1 {
     font-size: 50px; 
@@ -156,7 +150,6 @@ nav ul li a {
 .feature-img {
     flex-basis: 50%;
     margin:auto;
-
 }
 .feature-img img {
     width: 70%;
@@ -168,7 +161,6 @@ nav ul li a {
     font-weight: 100;
     color: #009688;
     padding-left: 2px;
-
 }
 .feature-desc {
     display: flex;
@@ -201,8 +193,7 @@ nav ul li a {
     }
     .feature-img img {
         width: 100%;
-    }
-   
+    } 
 }
  /*--service--*/
  #services {
@@ -224,7 +215,6 @@ nav ul li a {
     margin-bottom: 20px;
     color: #fff;
     position: relative;
-
 }
 .single-service img {
     width: 100%;
@@ -310,7 +300,6 @@ hr {
     display: flex;
     align-items: center;
     margin: 20px 0;
-
 }
 .user img {
     width: 60px;
@@ -386,7 +375,6 @@ hr {
     margin: 20px 5px 0;
     cursor: pointer;
     transition: .5s;
-
 }
 .social-links.fa:hover {
     background: #009688;
