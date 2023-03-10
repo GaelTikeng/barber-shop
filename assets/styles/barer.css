@@ -325,7 +325,7 @@ hr {
 /*footers*/
 #footers {
     padding: 10px 0 20px;
-    background: #efefef; 
+    background: #efefef;
     position: relative;
 }
 .footer-row {
@@ -335,7 +335,7 @@ hr {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.footer-left,.footer-right {
+.footer-left, .footer-right {
     flex-basis: 45%;
     padding: 20px;
     margin-bottom: 20px;
@@ -374,12 +374,10 @@ hr {
     border: 1px solid #009688;
     margin: 20px 5px 0;
     cursor: pointer;
-    transition: .5s;
+    transition: 0.5s;
 }
 .social-links.fa:hover {
     background: #009688;
     color: #fff;
     transform: translateY(-7px);
-}
-
- 
+} 
