@@ -293,7 +293,7 @@ hr {
   border-radius: 5%;
   box-shadow: 0 10px 20px 3px #00968814;
   cursor: pointer;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .testimonial-col p {
   font-size: 14px;
@@ -347,7 +347,7 @@ hr {
   margin-bottom: 20px;
 }
 
- .footer-right {
+.footer-right {
   text-align: right;
 }
 
@@ -355,7 +355,7 @@ hr {
   margin: 10px 0;
 }
 
- .footer-row p {
+.footer-row p {
   line-height: 35px;
 }
  .footer-left.fa,.footer-right.fa {
@@ -375,7 +375,7 @@ hr {
  .social-links {
   text-align: center;
 }
- .social-links.fa {
+.social-links.fa {
   height: 40px;
   width: 40px;
   font-size: 20px;
@@ -385,7 +385,7 @@ hr {
   cursor: pointer;
   transition: 0.5s;
 }
-.social-links.fa:hover {
+ .social-links.fa:hover {
   background: #009688;
   color: #fff;
   transform: translateY(-7px);
