@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
 }
 #banner {
-  background: linear-gradient(rgba(0,0,0,50%), #009688), url("banner.jpg");
+  background: linear-gradient(rgba(0,0,0,50%), #009688), url("../images/banner.jpg");
 	background-size: cover;
   background-position: center;
   height: 100vh;
@@ -97,10 +97,12 @@
   .banner-text h1 {
       font-size: 44px;
   }
+
   .banner-btn a {
 		display: block;
 		margin: 20px auto;
-  } 
+  }
+
 }
 /*FEATURE */
 #feature {
@@ -187,15 +189,19 @@
   .tittle-text h1 {
       font-size: 35px;
   }
+
   .feature {
       flex-basis: 100%;
   }
+
   .feature-img {
       flex-basis: 100%;
   }
+
   .feature-img img {
       width: 100%;
-  } 
+  }
+
 }
  /*--service--*/
 #services {
@@ -235,7 +241,8 @@
 }
  .single-service:hover .overlay {
   opacity: 1;
-} 
+}
+
  .service-desc {
   width: 80%;
   position: absolute;
@@ -252,32 +259,41 @@ hr {
   margin: 15px auto;
   width: 60%;
 }
+
 .service-desc p {
   font-size: 14px;
 }
+
 .single-service:hover .service-desc {
   bottom: 40%;
   opacity: 1;
 }
+
 @media screen and (max-width: 770px) {
   .single-service {
 		flex-basis: 100%;
     margin-bottom: 30px;
   }
+
   .service-desc p {
      font-size: 12px;
   }
+
   hr {
     margin: 5px auto;
   }
+
   .single-service:hover .service-desc {
     bottom: 25% !important;
   }
+
 }
+
 #testimonials {
   width: 100%;
   padding: 70px 0; 
 }
+
 .testimonial-row {
   width: 70%;
   margin: auto;
@@ -286,6 +302,7 @@ hr {
   align-items: flex-start;
   flex-wrap: wrap;
 }
+
 .testimonial-col {
   flex-basis: 28%;
   padding: 10%;
@@ -295,27 +312,33 @@ hr {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 .testimonial-col p {
   font-size: 14px;
 }
+
 .user {
   display: flex;
   align-items: center;
   margin: 20px 0;
 }
+
 .user img {
   width: 60px;
   margin-right: 20px;
   border-radius: 5px;
 }
+
 .user-info .fa {
   margin-left: 10px;
   color: #27c0ff;
   font-size: 20px;
 }
+
 .user-info small {
   color: #009688;
 }
+
 .testimonial-col:hover {
   transform: translateY(7px);
 }
@@ -324,6 +347,7 @@ hr {
   .testimonial-col{
     flex-basis: 100%;
   }
+
 }
 
 /*footers*/
@@ -375,7 +399,7 @@ hr {
  .social-links {
   text-align: center;
 }
-.social-links.fa {
+ .social-links.fa {
   height: 40px;
   width: 40px;
   font-size: 20px;
@@ -385,8 +409,8 @@ hr {
   cursor: pointer;
   transition: 0.5s;
 }
- .social-links.fa:hover {
+.social-links.fa:hover {
   background: #009688;
   color: #fff;
   transform: translateY(-7px);
-} 
+}
