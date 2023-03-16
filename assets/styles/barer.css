@@ -295,12 +295,15 @@ hr {
 }
 
 .testimonial-row {
-  width: 70%;
-  margin: auto;
+  max-height: 300px;
+  width: 150px;
+  margin: -30px 200px 5px 200px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
+  gap: 2rem;
+  
+  
 }
 
 .testimonial-col {
@@ -315,6 +318,7 @@ hr {
 
 .testimonial-col p {
   font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .user {
